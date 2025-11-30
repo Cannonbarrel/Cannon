@@ -9,4 +9,4 @@ summary_airbnb <- function(airbnb) {
     missing_values = colSums(is.na(airbnb))
   )
 }
-summary_airbnb(airbnb)
+
