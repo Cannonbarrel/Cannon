@@ -1,3 +1,6 @@
+install.packages("roxygen2")
+library(devtools)
+devtools::document()
 clean_airbnb <- function(data) {
 
   numeric_cols <- c("price","rating","reviews","accommodates",
